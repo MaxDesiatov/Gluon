@@ -173,6 +173,9 @@ struct TokamakDemoView: View {
             NavItem("URL hash changes", destination: URLHashDemo())
           }
           #endif
+          Section(header: Text("New Features")) {
+            NavItem("New Feature", destination: NewFeatureDemo())
+          }
         }
         .frame(minHeight: 300),
         title: "Demos"
